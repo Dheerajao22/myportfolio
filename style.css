@@ -6,7 +6,7 @@
 }
 
 a{
-    color:#fff;
+    color:yellow;
     text-decoration: none;
 }
 
@@ -82,13 +82,7 @@ a{
         display:none;
     }
 }
-.home-info h2 span::before{
-    content:attr(data-text);
-    position: absolute;
-    width:0;
-	white-space: nowrap;
-    overflow: hidden;
-   }
+
 @keyframes fill-text{
     10%
     100%{
